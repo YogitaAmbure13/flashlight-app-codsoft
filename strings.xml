@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flashlight App</string>
+    <string name="torch_image_desc">Torch Image</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="toggle_flashlight_desc">Toggle Flashlight</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/torchImage"
+        android:layout_width="wrap_content"
+        android:layout_height="682dp"
+        android:contentDescription="Torch Image"
+        android:src="@drawable/torch_off" />
+
+    <ToggleButton
+        android:id="@+id/flashlightToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@id/torchImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-327dp"
+        android:textOff="@string/turn_on"
+        android:textOn="@string/turn_off" />
+
+</RelativeLayout>
